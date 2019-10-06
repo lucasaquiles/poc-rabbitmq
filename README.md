@@ -3,7 +3,7 @@ Simple POC to learing about AMQP protocol using RabbitMQ and Spring Boot.
 - rabbitmq using docker
 
 ```
-docker run -d — hostname my-rabbit — name rabbit13 -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+docker-compose up
 ```
 
 [rabbitmq-poc](https://github.com/lucasaquiles/poc-rabbitmq/tree/master/rabbitmq-poc)
