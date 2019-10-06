@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+ rabbit:
+  image: rabbitmq:3-management
+  ports:
+   - "15672:15672"
+   - "5672:5672"
+   - "25676:25676"
+  environment:
+   RABBITMQ_DEFAULT_VHOST: poc
