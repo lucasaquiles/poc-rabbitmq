@@ -12,4 +12,7 @@ public class MessageRequest {
 
     @NotBlank
     private String description;
+
+
+    private ChangeStatusRequest changeStatusRequest;
 }
