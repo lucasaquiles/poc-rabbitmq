@@ -15,7 +15,6 @@ import javax.validation.Valid;
 @RestController("/message")
 public class MessageController {
 
-
     @Autowired
     private MessageService messageService;
 

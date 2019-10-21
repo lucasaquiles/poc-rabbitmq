@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 @AllArgsConstructor
 @Builder
-public class SimpleMessage  implements Serializable {
+public class SimpleMessage implements Serializable {
 
     private String name;
     private String description;
